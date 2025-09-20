@@ -1,0 +1,64 @@
+.picture {
+      display: flex;
+      align-items: center;   /* vertical center */
+      gap: 40px;             /* space between image and buttons */
+      justify-content: center; /* centers everything in page */
+      margin-top: 50px;
+    }
+
+    .picture img {
+      width: 250px;
+      height: 200px;
+      border-radius: 10%;   /* round image */
+      object-fit: cover;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;  /* buttons stacked vertically */
+      gap: 15px;
+    }
+
+    .sub, .pro {
+      background: greenyellow;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .sub:hover, .pro:hover {
+      background: rgb(223, 95, 5);
+    }
+
+    h1 {
+      text-align: center;
+      color: rgb(226, 43, 14);
+      font-family:  'Arial Narrow Bold';
+    }
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 80%; /* circle */
+  object-fit: contain; /* keeps whole image */
+  background-color: rgb(130, 115, 115); /* fills empty space */
+  
+}
+body{
+    background-color: rgb(142, 138, 138);
+}
+.mylink{
+    color:rgb(8, 235, 235);
+}
+.vlsi img{
+  width: 150px;
+      height: 20px;
+      border-radius: 50%;   /* round image */
+      object-fit: cover;
+}
+.footer{
+  position: bottom;
+}
+
